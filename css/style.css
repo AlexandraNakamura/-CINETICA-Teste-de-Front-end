@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "Boton Medium";
+	src: url(../fonts/Boton\ Medium.otf)
+}
+
+@font-face {
+	font-family: "Boton Regular";
+	src: url(../fonts/Boton\ Regular.ttf)
+}
+
+h1 {
+    font-family: "Boton Medium";
+}
+
+h2 {
+    font-family: "boton regular";
+}
