@@ -85,7 +85,6 @@ h1.title {
     height: 63px;
     left: 0px;
     top: 1035px
-
 }
 
 .box-btn {
@@ -101,10 +100,11 @@ h1.title {
     font-size: 30px;
     line-height: 36px;
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.02em;
+}
 
+.button span {
+    margin: auto;
 }
 
 /*Banner
