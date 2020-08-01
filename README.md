@@ -6,10 +6,15 @@ Andamento
 
 # Objetivo
 Bootstrap no projeto;
+
 Responsividade;
+
 Performance;
+
 Adaptação;
+
 Microinterações;
+
 Imagem.
 
 # Apoio, suporte e autores

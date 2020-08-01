@@ -1,3 +1,4 @@
+/* config geral */
 @font-face {
 	font-family: "Boton Medium";
 	src: url(../fonts/Boton\ Medium.otf)
@@ -8,10 +9,155 @@
 	src: url(../fonts/Boton\ Regular.ttf)
 }
 
-h1 {
-    font-family: "Boton Medium";
+div.col-md-12 {
+    margin: 0;
+    padding: 0;
 }
 
-h2 {
-    font-family: "boton regular";
+/* Cabeçalho*/
+header {
+    width: 100%;
+    height: 222px;
+    background-color: #412856;
+}
+
+h1.title {
+    font-size: 80px;
+    font-family: "Boton Medium";
+    text-align: center ;
+    color: #FFFFFF;
+    padding-top: 62px;
+    margin: 0;
+}
+
+/*Banner*/
+.banner-img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/*Informação*/
+.container-section {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#7E649F 0%, #130D36 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*texto inicial*/
+.container-section {
+    width: 1440px;
+    height: auto;
+    left: 0px;
+    top: 853px;
+
+}
+.conteinar-text01 {
+    width: 1440px;
+    height: 183px;
+    left: 0px;
+    top: 853px;
+}
+
+.text-box {
+    width: 1241px;
+    height: 94px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text01 {
+    font-family: "Boton Regular";
+    font-size: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 71px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+/* Botão */
+.container-btn {
+    width: 1440px;
+    height: 63px;
+    left: 0px;
+    top: 1035px
+
+}
+
+.box-btn {
+    width: 368px;
+    height: 62px;
+    left: 535px;
+    top: 1036px;
+}
+
+.button {
+    font-family: "Boton Medium";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+}
+
+/*Banner
+.bannercontainer {
+    padding: 0;
+    margin: 0;
+    top: 222px;
+    width: 100%;
+    height: 631px;
+    position: absolute;
+}
+
+.bannerimg {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+}
+
+/* coluna do meio 
+.colbody {
+    width: 100%;
+    height: auto;
+    top: 500px;
+    position: absolute;
+    background-color: red;
+
+
+}
+
+/*Texto introdução 
+.texto01 {
+    position: absolute;
+width: 1241px;
+height: 94px;
+left: 111px;
+top: 924px;
+font-family: Boton;
+font-size: 26px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+}
+
+/* Botão */
+.button {
+    position: absolute;
+    width: 368px;
+    height: 62px;
+    left: 535px;
+    top: 1036px;
+
+    background: #AD72DF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
 }
