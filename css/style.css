@@ -80,18 +80,19 @@ h1.title {
 }
 
 /* Botão */
-.container-btn {
-    width: 1440px;
+.row.container-btn {
+    margin: 0;
+    width: 100%;
     height: 63px;
     left: 0px;
-    top: 1035px
+    margin: 0;
 }
 
 .box-btn {
     width: 368px;
     height: 62px;
-    left: 535px;
-    top: 1036px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button {
@@ -101,64 +102,114 @@ h1.title {
     line-height: 36px;
     display: flex;
     letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
+    background: #AD72DF;
+    width: 368px;
+    height: 62px;
+    left: 535px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
 }
 
 .button span {
     margin: auto;
 }
 
-/*Banner
-.bannercontainer {
+/* Cartão */ 
+.row.card-row {
+    width: 1440px;
+    height: auto;
+    margin: 0;
+}
+.col-md-4.card-all {
+    margin-top: 97px;
     padding: 0;
-    margin: 0;
-    top: 222px;
-    width: 100%;
-    height: 631px;
-    position: absolute;
+    
 }
 
-.bannerimg {
-    margin: 0;
-    position: absolute;
+.rounded-circle.imagem-profile {
+    align-items: center;
+    margin-left: auto;
+    margin-left: auto;    
+}
+
+.card01 {
+    width: 361px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Texto chamativo */
+.row.row-text-call{
     width: 100%;
     height: auto;
-    object-fit: scale-down;
+    margin: 121px 0 117px;
 }
 
-/* coluna do meio 
-.colbody {
-    width: 100%;
-    height: auto;
-    top: 500px;
-    position: absolute;
-    background-color: red;
-
-
+.text-call01 {
+    font-family: "Boton Medium";
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 0;
 }
 
-/*Texto introdução 
-.texto01 {
-    position: absolute;
-width: 1241px;
-height: 94px;
-left: 111px;
-top: 924px;
-font-family: Boton;
-font-size: 26px;
-line-height: 26px;
-text-align: center;
-color: #FFFFFF;
+/* texto dos perfis */
+.row.container-title-perfil {
+    width: auto;
+    margin: 0;
 }
 
-/* Botão */
-.button {
-    position: absolute;
-    width: 368px;
-    height: 62px;
-    left: 535px;
-    top: 1036px;
-
-    background: #AD72DF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
+.row.box-title-perfil {
+    width: auto;
+    height: 100%;
+    margin: 0;
 }
+
+.col-md-2.col-title-perfil {
+    width: 243.3px;
+    height: 193.42px;
+    margin-left: 113px;
+    padding: 0;
+}
+
+.title-perfil {
+    font-size: 42px;
+    line-height: 50px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.col-md-1.col-barra {
+    width: 196.61px;
+    height: 0px;
+    left: 417.45px;
+}
+
+hr {
+    width: 196px;
+    height: 2px;
+    background-color: #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.col-md-9.col-subtexto-perfil {
+    width: 805px;
+    font-family: "Boton Regular";
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.subtexto-perfil p {
+    width: 805px;
+    font-family: "Boton Regular";
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
