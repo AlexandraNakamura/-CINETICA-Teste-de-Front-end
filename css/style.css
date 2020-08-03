@@ -9,10 +9,6 @@
 	src: url(../fonts/Boton\ Regular.ttf)
 }
 
-div.col-md-12 {
-    margin: 0;
-    padding: 0;
-}
 
 /* Cabeçalho*/
 header {
@@ -170,11 +166,12 @@ h1.title {
     margin: 0;
 }
 
-.col-md-2.col-title-perfil {
-    width: 243.3px;
-    height: 193.42px;
-    margin-left: 113px;
+.col-md-2.coltitleperfil {
+    width: 255px;
+    height: 150px;
+    margin-left: 111px;
     padding: 0;
+    top: 17.65px;
 }
 
 .title-perfil {
@@ -182,34 +179,63 @@ h1.title {
     line-height: 50px;
     text-align: right;
     color: #FFFFFF;
+    margin-bottom: 0;
 }
 
-.col-md-1.col-barra {
-    width: 196.61px;
-    height: 0px;
-    left: 417.45px;
+.col-md.colbarra {
+    padding: 0;
+    margin: 0;
 }
 
-hr {
-    width: 196px;
-    height: 2px;
+.barra {
+    width: 2px;
+    height: 196.61px;
     background-color: #FFFFFF;
-    transform: rotate(90deg);
+    margin-left: 51px;
+    margin-right: 40px;
 }
 
-.col-md-9.col-subtexto-perfil {
+div.col-md-6.colsubtextoperfil {
     width: 805px;
-    font-family: "Boton Regular";
+    margin: 38.78px 285px 0 92px;
+    padding: 0;
     font-size: 26px;
     line-height: 26px;
     color: #FFFFFF;
 }
 
-.subtexto-perfil p {
+p.subtexto-perfil {
     width: 805px;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.linha2 {
+    margin: 49px 0 0;
+    padding-bottom: 136px;
+}
+
+/*Roda pé*/
+.row.footer {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 215px;
+    background-color: #000;
+    text-align: center;
+}
+
+.containerdireito {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.direito {
+    margin-top: 95px;
     font-family: "Boton Regular";
     font-size: 26px;
     line-height: 26px;
-    color: #FFFFFF;
+    align-items: center;
+    color: #fff;
 }
-
