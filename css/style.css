@@ -26,6 +26,10 @@ h1.title {
     margin: 0;
 }
 
+div.row {
+    margin-right: 0px;
+    margin-left: 0px;}
+
 /*Banner*/
 .banner-img {
     width: 100%;
@@ -64,15 +68,15 @@ h1.title {
 }
 
 .text01 {
-    font-family: "Boton Regular";
     font-size: 26px;
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
     margin: 0;
     padding-top: 71px;
-    padding-left: auto;
-    padding-right: auto;
+}
+.text01 p{
+    font-family: "Boton Regular";
 }
 
 /* Botão */
@@ -89,6 +93,7 @@ h1.title {
     height: 62px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .button {
@@ -104,6 +109,7 @@ h1.title {
     width: 368px;
     height: 62px;
     left: 535px;
+    color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
 }
@@ -112,29 +118,85 @@ h1.title {
     margin: auto;
 }
 
-/* Cartão */ 
-.row.card-row {
-    width: 1440px;
-    height: auto;
-    margin: 0;
-}
-.col-md-4.card-all {
-    margin-top: 97px;
-    padding: 0;
-    
-}
+/* Cartão */
 
-.rounded-circle.imagem-profile {
-    align-items: center;
-    margin-left: auto;
-    margin-left: auto;    
-}
-
-.card01 {
+.card {
     width: 361px;
-    height: 200px;
-    justify-content: center;
+    margin-left: 97px;
+    margin-top: 95px;
+    height: auto;
+}
+
+img.card-img-top {
+    width: 152px;
+    height: auto;
+    align-self: center;
+}
+
+.card-body {
     align-items: center;
+    text-align: center;
+}
+
+.card-subtitle.mb-2.tema01 {
+    font-family: "Boton Regular";
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.card-subtitle.mb-2 {
+    font-family: "Boton Medium";
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.card-title {
+    font-family: "Boton Medium";
+    margin-top: 36px;
+    font-size: 32px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.card-text {
+    font-family: "Boton Regular";
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.card-text.text02{
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card02 {
+    width: 372px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 95px;
+    height: auto;
+}
+
+.card03 {
+    width: 372px;
+    margin-left: 0;
+    margin-right: 88px;
+    margin-top: 95px;
+    height: auto;
+}
+
+.card-text.text03{
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Texto chamativo */
@@ -197,7 +259,7 @@ h1.title {
 
 div.col-md-6.colsubtextoperfil {
     width: 805px;
-    margin: 38.78px 285px 0 92px;
+    margin: 38.78px 277px 0 92px;
     padding: 0;
     font-size: 26px;
     line-height: 26px;
@@ -214,6 +276,28 @@ p.subtexto-perfil {
 .linha2 {
     margin: 49px 0 0;
     padding-bottom: 136px;
+
+}
+
+.test {
+    margin: 62px 285px 0 92px;
+}
+
+.col-md-2.coltitleperfil02 {
+    width: 255px;
+    height: 150px;
+    margin-left: 111px;
+    padding: 0;
+    top: 41px;
+}
+
+div.col-md-6.colsubtextoperfil02 {
+    width: 805px;
+    margin: 62px 277px 0 92px;
+    padding: 0;
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
 }
 
 /*Roda pé*/
