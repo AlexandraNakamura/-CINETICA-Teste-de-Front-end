@@ -279,10 +279,6 @@ p.subtexto-perfil {
 
 }
 
-.test {
-    margin: 62px 285px 0 92px;
-}
-
 .col-md-2.coltitleperfil02 {
     width: 255px;
     height: 150px;
@@ -325,84 +321,509 @@ div.col-md-6.colsubtextoperfil02 {
 }
 
 @media screen and (max-width: 565px) {
-    /* texto dos perfis */
-.row.container-title-perfil {
-    width: auto;
+    /* Cabeçalho*/
+header {
+    width: 100%;
+    height: 39.200vw;
+}
+
+h1.title {
+    font-size: 16vw;
+    padding-top: 9.600vw;
     margin: 0;
 }
 
-.row.box-title-perfil {
-    width: auto;
-    height: 100%;
+/*Banner*/
+.banner-img {
+    width: 100%;
+    height: 50%;
     margin: 0;
 }
 
-.col-md-2.coltitleperfil {
-    width: 255px;
-    height: 150px;
-    margin-left: 111px;
+/*Informação*/
+.container-section {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#7E649F 0%, #130D36 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*texto inicial*/
+.container-section {
+    width: 100%;
+    height: auto;
+    top: 59.236vw;
+
+}
+.conteinar-text01 {
+    width: 100%;
+    height: 133.333vw;
+}
+
+.text-box {
+    width: 86.181vw;
+    height: 6.528vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text01 {
+    width: 66.667vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 6.933vw;
+    line-height: 6.933vw;
+    padding-top: 17.600vw;
+}
+
+    /* Botão */
+
+
+.row.container-btn {
+    width: 100%;
+    height: 41.867vw;
+}
+
+.box-btn {
+    width: 325.556vw;
+    height: 4.306vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.button {
+    width: 84.533vw ;
+    height: 16.533vw;
+    font-size: 8vw;
+    line-height: 9.600vw;
+    display: flex;
+    letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 1.067vw 1.067vw rgba(0, 0, 0, 0.25);
+    border-radius: 1.600vw;
+}
+
+    /* Cartão */
+.rowcard {
+    margin-top: 2.667vw;
+}
+
+.card-group {
+    margin: auto;
+}
+
+.card {
+    width: 85.333vw;
+    margin: 2.667vw auto 0;
+    margin-left: auto;
+
+    margin-top: auto;
+
+}
+
+img.card-img-top {
+    width: 40.533vw;
+
+}
+
+.card-subtitle.mb-2.tema01 {
+
+    font-size: 5.867vw;
+    letter-spacing: 0.02em;
+
+}
+
+.card-subtitle.mb-2 {
+
+    font-size: 5.867vw;
+    letter-spacing: 0.02em;
+
+}
+
+.card-title {
+
+    margin-top: 9.600vw;
+    font-size: 8.533vw;
+    letter-spacing: 0.02em;
+
+}
+
+.card-text {
+    font-size: 5.867vw;
+    line-height: 6.933vw;
+    align-items: center;
+    text-align: center;
+}
+
+.card-text.text02{
+    width: 72vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card02 {
+    width: 85.333vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25.333vw;
+    height: auto;
+}
+
+.card03 {
+    width: 85.333vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25.333vw;
+    height: auto;
+}
+
+.card-text.text03{
+    width: 72vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    /* Texto chamativo */
+.row.row-text-call{
+    width: 100%;
+    margin: 32.267vw 0 31.200vw;
+}
+
+.text-call01 {
+    font-size: 16vw;
+    line-height: 19.200vw;
+    margin: 0;
     padding: 0;
-    top: 17.65px;
+}
+
+    /* texto dos perfis */
+.col-md-2.coltitleperfil {
+    width: 68vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    top: 4.707vw;
 }
 
 .title-perfil {
-    font-size: 42px;
-    line-height: 50px;
-    text-align: right;
+    font-size: 11.200vw;
+    line-height: 13.333vw;
+    text-align: center;
     color: #FFFFFF;
-    margin-bottom: 0;
 }
 
 .col-md.colbarra {
     padding: 0;
-    margin: 0;
+    margin: 25.682vw 0 0;
 }
 
 .barra {
-    width: 2px;
-    height: 196.61px;
+    width: 52.429vw;
+    height: 0.533vw;
     background-color: #FFFFFF;
-    margin-left: 51px;
-    margin-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.col-md-6.colsubtextoperfil {
-    width: 805px;
-    margin: 38.78px 277px 0 92px;
+    width: 73.333vw;
+    margin: 10.341vw auto 0 ;
     padding: 0;
-    font-size: 26px;
-    line-height: 26px;
+    font-size: 6.933vw;
+    line-height: 6.933vw;
     color: #FFFFFF;
 }
 
 p.subtexto-perfil {
-    width: 241.867vw;
+    width: 73.333vw;
     margin: 0;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .linha2 {
-    margin: 49px 0 0;
-    padding-bottom: 136px;
+    margin: 13.067vw 0 0;
+    padding-bottom: 36.267vw;
 
-}
-
-.test {
-    margin: 62px 285px 0 92px;
 }
 
 .col-md-2.coltitleperfil02 {
-    width: 255px;
-    height: 150px;
-    margin-left: 111px;
+    width: 73.333vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
-    top: 41px;
+    top: 10.933vw;
 }
 
 div.col-md-6.colsubtextoperfil02 {
-    width: 241.867vw;
-    margin: 16.533vw 73.867vw 0 24.533vw;
+    width: 73.333vw;
+    height: auto;
+    margin: 16.533vw auto 0;
+    padding: 0;
+    font-size: 6.933vw;
+    line-height: 6.933vw;
+    color: #FFFFFF;
+}
+    /*Roda pé*/
+    .row.footer {
+        height: 57.333vw;
+    }
+    
+    .direito {
+        margin-top: 25.333vw;
+        font-size: 6.933vw;
+        line-height: 0.470vw;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Cabeçalho*/
+header {
+    width: 100%;
+    height: 39.200vw;
+}
+
+h1.title {
+    font-size: 16vw;
+    padding-top: 9.600vw;
+    margin: 0;
+}
+
+/*Banner*/
+.banner-img {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+}
+
+/*Informação*/
+.container-section {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#7E649F 0%, #130D36 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*texto inicial*/
+.container-section {
+    width: 100%;
+    height: auto;
+    top: 59.236vw;
+
+}
+.conteinar-text01 {
+    width: 100%;
+    height: 133.333vw;
+}
+
+.text-box {
+    width: 86.181vw;
+    height: 6.528vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text01 {
+    width: 66.667vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 6.933vw;
+    line-height: 6.933vw;
+    padding-top: 17.600vw;
+}
+
+    /* Botão */
+
+
+.row.container-btn {
+    width: 100%;
+    height: 41.867vw;
+}
+
+.box-btn {
+    width: 325.556vw;
+    height: 4.306vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.button {
+    width: 84.533vw ;
+    height: 16.533vw;
+    font-size: 8vw;
+    line-height: 9.600vw;
+    display: flex;
+    letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 1.067vw 1.067vw rgba(0, 0, 0, 0.25);
+    border-radius: 1.600vw;
+}
+
+    /* Cartão */
+.rowcard {
+    margin-top: 2.667vw;
+}
+
+.card-group {
+    margin: auto;
+}
+
+.card {
+    width: 85.333vw;
+    margin: 2.667vw auto 0;
+    margin-left: auto;
+
+    margin-top: auto;
+
+}
+
+img.card-img-top {
+    width: 40.533vw;
+
+}
+
+.card-subtitle.mb-2.tema01 {
+
+    font-size: 5.867vw;
+    letter-spacing: 0.02em;
+
+}
+
+.card-subtitle.mb-2 {
+
+    font-size: 5.867vw;
+    letter-spacing: 0.02em;
+
+}
+
+.card-title {
+
+    margin-top: 9.600vw;
+    font-size: 8.533vw;
+    letter-spacing: 0.02em;
+
+}
+
+.card-text {
+    font-size: 5.867vw;
+    line-height: 6.933vw;
+    align-items: center;
+    text-align: center;
+}
+
+.card-text.text02{
+    width: 72vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card02 {
+    width: 85.333vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25.333vw;
+    height: auto;
+}
+
+.card03 {
+    width: 85.333vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25.333vw;
+    height: auto;
+}
+
+.card-text.text03{
+    width: 72vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    /* Texto chamativo */
+.row.row-text-call{
+    width: 100%;
+    margin: 32.267vw 0 31.200vw;
+}
+
+.text-call01 {
+    font-size: 16vw;
+    line-height: 19.200vw;
+    margin: 0;
+    padding: 0;
+}
+
+    /* texto dos perfis */
+.col-md-2.coltitleperfil {
+    width: 68vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    top: 4.707vw;
+}
+
+.title-perfil {
+    font-size: 11.200vw;
+    line-height: 13.333vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.col-md.colbarra {
+    padding: 0;
+    margin: 25.682vw 0 0;
+}
+
+.barra {
+    width: 52.429vw;
+    height: 0.533vw;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.col-md-6.colsubtextoperfil {
+    width: 73.333vw;
+    margin: 10.341vw auto 0 ;
+    padding: 0;
+    font-size: 6.933vw;
+    line-height: 6.933vw;
+    color: #FFFFFF;
+}
+
+p.subtexto-perfil {
+    width: 73.333vw;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.linha2 {
+    margin: 13.067vw 0 0;
+    padding-bottom: 36.267vw;
+
+}
+
+.col-md-2.coltitleperfil02 {
+    width: 73.333vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    top: 10.933vw;
+}
+
+div.col-md-6.colsubtextoperfil02 {
+    width: 73.333vw;
+    height: auto;
+    margin: 16.533vw auto 0;
     padding: 0;
     font-size: 6.933vw;
     line-height: 6.933vw;
