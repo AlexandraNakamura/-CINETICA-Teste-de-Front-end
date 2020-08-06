@@ -118,7 +118,7 @@
 
     /* Cartão */
     .card {
-        width: 25.069vw;
+        width: 24.70vw;
         margin-left: 6.736vw;
         margin-top: 6.597vw;
         height: auto;
@@ -171,7 +171,7 @@
 
 
     .card02 {
-        width: 25.833vw;
+        width: 25.5vw;
         margin-left: 5.208vw;
         margin-right: 5.208vw;
         margin-top: 6.597vw;
@@ -179,13 +179,12 @@
     }
 
     .card03 {
-        width: 25.833vw;
+        width: 25.5vw;
         margin-left: 0;
         margin-right: 6.111vw;
         margin-top: 6.597vw;
         height: auto;
     }
-
 
     /* Texto chamativo */
     .row.row-text-call{
@@ -244,9 +243,10 @@
         margin-left: 3.542vw;
         margin-right: 2.778vw;
     }
+
     div.col-md-6.colsubtextoperfil {
         width: 55.903vw;
-        margin: 2.693vw 19.236vw 0 6.389vw;
+        margin: 2.693vw 18.206vw 0 6.389vw;
         padding: 0;
         font-size: 1.806vw;
         line-height: 1.806vw;
@@ -263,7 +263,6 @@
     .linha2 {
         margin: 3.403vw 0 0;
         padding-bottom: 9.444vw;
-
     }
 
     .col-md-2.coltitleperfil02 {
@@ -276,7 +275,7 @@
 
     div.col-md-6.colsubtextoperfil02 {
         width: 55.903vw;
-        margin: 4.306vw 19.236vw 0 6.389vw;
+        margin: 4.306vw 18.206vw 0 6.389vw;
         padding: 0;
         font-size: 1.806vw;
         line-height: 1.806vw;
@@ -289,7 +288,6 @@
         margin-top: 0;
         margin-bottom: 0;
     }
-
 
     /*Roda pé*/
     .row.footer {
@@ -778,7 +776,7 @@ div.col-md-6.colsubtextoperfil02 {
 
     div.col-md-6.colsubtextoperfil {
         width: 73.333vw;
-        margin: 10.341vw auto 0 ;
+        margin: 16.533vw auto 0;
         padding: 0;
         font-size: 6.933vw;
         line-height: 6.933vw;
