@@ -2,7 +2,7 @@
 Criar uma pagina atráves do layout fornecido.
 
 # Status
-Andamento
+Finalizado
 
 # Objetivo
 Bootstrap no projeto;
