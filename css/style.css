@@ -110,11 +110,32 @@
         color: #FFFFFF;
         box-shadow: 0px 0.278vw 0.278vw rgba(0, 0, 0, 0.25);
         border-radius: 0.417vw;
+        
+    }
+
+    .button:hover {
+        box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25);
+        color: #fff;
+        -moz-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        text-decoration:none;
+    }
+    
+    .button:active {
+        box-shadow: inset 0px 4px 10px #AD72DF;
+        border: none;
+        outline: none;
+        color: #fff;
+        text-decoration:none;
+
     }
 
     .button span {
         margin: auto;
     }
+
+    
 
     /* Cartão */
     .card {
